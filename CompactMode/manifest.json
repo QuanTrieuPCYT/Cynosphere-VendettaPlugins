@@ -1,1 +1,1 @@
-{"name":"Compact Mode","description":"Removes message headers for inline usernames","authors":[{"name":"Cynosphere","id":"150745989836308480"}],"main":"index.js","vendetta":{"icon":"icon-thread-browser"},"hash":"5231b2195f9ae930deb03a24ff6e8edb9d8515280e26c126429f167e88a719af"}
+{"name":"Compact Mode","description":"Removes message headers for inline usernames","authors":[{"name":"Cynosphere","id":"150745989836308480"}],"main":"index.js","vendetta":{"icon":"icon-thread-browser"},"hash":"c95b5c2b1721535ea421752218ae2f1e9308a184d5fa1220248788bc6273de9e"}
