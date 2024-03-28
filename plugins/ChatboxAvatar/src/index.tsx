@@ -28,11 +28,25 @@ function AvatarAction({channelId}) {
   );
 
   return (
-    <Pressable onLongPress={openStatus} onPress={createOpenProfile(channelId)}>
+    <Pressable
+      style={{
+        height: 40,
+        width: 40,
+        marginHorizontal: 4,
+        flexShrink: 0,
+        flexDirection: "row",
+        alignItems: "center",
+        justifyContent: "center",
+      }}
+      onLongPress={createOpenProfile(channelId)} 
+      onPress={openStatus}
+    >
       <Avatar
         user={self}
         status={status}
         avatarDecoration={self.avatarDecoration}
+        animate={true}
+        // autoStatusCutout={DEFAULT_STATUS_CUTOUT}
       />
     </Pressable>
   );
